@@ -44,8 +44,8 @@ const PdfViewer = ({ pdf }) => {
                 <Page pageNumber={pageNumber}
                     // width={window.innerWidth}
                     // height={window.innerHeight}
-                    width={'500'}
-                    height={'1000'}
+                    width={500}
+                    height={1000}
                     renderTextLayer={false}
                     renderAnnotationLayer={false} />
             </Document>
